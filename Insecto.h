@@ -32,6 +32,7 @@ Insecto::Insecto(string pnombre_cientifico, int pnumero_patas, string pcolor)
 
 Insecto::~Insecto()
 {
+	//Destructor vacio
 }
 
 string Insecto::getnombre_cientifico()
