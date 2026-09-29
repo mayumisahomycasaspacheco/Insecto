@@ -55,7 +55,7 @@ void Escarabajo::setpuede_volar(bool ppuede_volar)
 void Escarabajo::mostrar_datos()
 {
 	Insecto::mostrar_datos();
-	cout << "Familia: " << familia << endl;
-	cout << "Puede volar: " << puede_volar << endl;
+	cout << "Family: " << familia << endl;
+	cout << "Can fly: " << puede_volar << endl;
 
 }

@@ -7,6 +7,55 @@
 using namespace std;
 using namespace System;
 
+void caracolito(int x, int y)
+{
+	string lineas[14] = {
+"     /^\\    /^\\",
+"    {  O}  {  O}",
+"     \\ /    \\ /",
+"     //     //       _------_",
+"    //     //     ./~        ~-_",
+"   / ~----~/     /              \\",
+" /         :   ./       _---_    ~-",
+"|  \\________) :       /~     ~\\   |",
+"|        /    |      |  :~~\\  |   |",
+"|       |     |      |  \\___-~    |",
+"|        \\ __/`^\\______\\.        ./",
+" \                     ~-______-~\\.",
+" .|                                ~-_",
+"/_____________________________________~~____"
+	};
+
+	Console::SetCursorPosition(x, y);
+	cout << lineas[0];
+	Console::SetCursorPosition(x, y + 1);
+	cout << lineas[1];
+	Console::SetCursorPosition(x, y + 2);
+	cout << lineas[2];
+	Console::SetCursorPosition(x, y + 3);
+	cout << lineas[3];
+	Console::SetCursorPosition(x, y + 4);
+	cout << lineas[4];
+	Console::SetCursorPosition(x, y + 5);
+	cout << lineas[5];
+	Console::SetCursorPosition(x, y + 6);
+	cout << lineas[6];
+	Console::SetCursorPosition(x, y + 7);
+	cout << lineas[7];
+	Console::SetCursorPosition(x, y + 8);
+	cout << lineas[8];
+	Console::SetCursorPosition(x, y + 9);
+	cout << lineas[9];
+	Console::SetCursorPosition(x, y + 10);
+	cout << lineas[10];
+	Console::SetCursorPosition(x, y + 11);
+	cout << lineas[11];
+	Console::SetCursorPosition(x, y + 12);
+	cout << lineas[12];
+	Console::SetCursorPosition(x, y + 13);
+	cout << lineas[13];
+}
+
 void mariposita(int x, int y)
 {
 	string lineas[16] = {
@@ -56,10 +105,6 @@ void mariposita(int x, int y)
 	cout << lineas[12];
 	Console::SetCursorPosition(x, y + 13);
 	cout << lineas[13];
-	Console::SetCursorPosition(x, y + 14);
-	cout << lineas[14];
-	Console::SetCursorPosition(x, y + 15);
-	cout << lineas[15];
 }
 
 void escarabajito(int x, int y)
@@ -130,8 +175,8 @@ int main()
 
 	//Creando los objetos Mariposa y Escarabajo
 
-	Mariposa mariposa("Danaus plexippus", 6, "naranja y negro", 10.5, "nectar");
-	Escarabajo escarabajo("Coccinella septempunctata", 6, "rojo con puntos negros", "Coccinellidae", true);
+	Mariposa mariposa("Danaus plexippus", 6, "Orange and black", 10.5, "nectar");
+	Escarabajo escarabajo("Coccinella septempunctata", 6, "Red with points black", "Coccinellidae", true);
 
 	do
 	{
@@ -151,11 +196,26 @@ int main()
 
 		cout << " " << endl;
 
-		cout << "1. Datos de la mariposa" << endl;
-		cout << "2. Datos del escarabajo" << endl;
-		cout << "3. Salir" << endl;
+		cout << "You're wandering through your backyard, and suddenly you spot" << endl;
+		cout << "a butterfly gliding by and a beetle stubbornly refusing to fly. You wonder:" << endl;
+		cout << "what makes them so different, yet so alike?" << endl;
+		cout << "Insecto is here to answer that." << endl;
 
-		cout << "Escoge una opcion: ";
+		cout << " " << endl;
+
+		cout << "1. Butterfly data" << endl;
+		cout << "2. Beetle data" << endl;
+		cout << "3. Exit" << endl;
+
+		cout << "Choose an option: ";
+
+		int cursorX = Console::CursorLeft;
+		int cursorY = Console::CursorTop;
+
+		caracolito(63, 12);
+
+		Console::SetCursorPosition(cursorX, cursorY);
+
 		cin >> opcion;
 
 		if (opcion == 1)

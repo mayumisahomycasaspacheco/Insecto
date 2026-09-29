@@ -57,6 +57,6 @@ void Mariposa::settipo_alimentacion(string ptipo_alimentacion)
 void Mariposa::mostrar_datos()
 {
 	Insecto::mostrar_datos();
-	cout << "Envergadura de alas: " << envergadura_alas << "cm" << endl;
-	cout << "Tipo alimentacion: " << tipo_alimentacion << endl;
+	cout << "Wingspan: " << envergadura_alas << "cm" << endl;
+	cout << "Feeding type: " << tipo_alimentacion << endl;
 }

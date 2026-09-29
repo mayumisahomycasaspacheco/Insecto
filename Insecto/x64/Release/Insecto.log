@@ -1,0 +1,12 @@
+﻿  Source.cpp
+C:\Users\YUYU\Desktop\Insecto\Source.cpp(24,1): warning C4129: “ ”: secuencia de escape de caracteres no reconocida
+C:\Users\YUYU\Desktop\Insecto\Source.cpp(65,2): warning C4129: “_”: secuencia de escape de caracteres no reconocida
+C:\Users\YUYU\Desktop\Insecto\Source.cpp(66,2): warning C4129: “/”: secuencia de escape de caracteres no reconocida
+C:\Users\YUYU\Desktop\Insecto\Source.cpp(68,2): warning C4129: “ ”: secuencia de escape de caracteres no reconocida
+C:\Users\YUYU\Desktop\Insecto\Source.cpp(69,2): warning C4129: “ ”: secuencia de escape de caracteres no reconocida
+C:\Users\YUYU\Desktop\Insecto\Source.cpp(75,2): warning C5332: las secuencias de escape delimitadas solo son válidas en C++23
+C:\Users\YUYU\Desktop\Insecto\Source.cpp(75,2): warning C4129: “o”: secuencia de escape de caracteres no reconocida
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generando código...
+  Source.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
+  Insecto.vcxproj -> C:\Users\YUYU\Desktop\Insecto\x64\Release\Insecto.exe
