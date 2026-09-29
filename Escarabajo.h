@@ -56,6 +56,6 @@ void Escarabajo::mostrar_datos()
 {
 	Insecto::mostrar_datos();
 	cout << "Family: " << familia << endl;
-	cout << "Can fly: " << puede_volar << endl;
+	cout << "Can fly: " << (puede_volar ? "Yes" : "No") << endl;
 
 }
