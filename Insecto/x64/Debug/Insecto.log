@@ -1,3 +1,9 @@
 ﻿  Source.cpp
+C:\Users\YUYU\Desktop\Insecto\Source.cpp(16,2): warning C4129: “_”: secuencia de escape de caracteres no reconocida
+C:\Users\YUYU\Desktop\Insecto\Source.cpp(17,2): warning C4129: “/”: secuencia de escape de caracteres no reconocida
+C:\Users\YUYU\Desktop\Insecto\Source.cpp(19,2): warning C4129: “ ”: secuencia de escape de caracteres no reconocida
+C:\Users\YUYU\Desktop\Insecto\Source.cpp(20,2): warning C4129: “ ”: secuencia de escape de caracteres no reconocida
+C:\Users\YUYU\Desktop\Insecto\Source.cpp(26,2): warning C5332: las secuencias de escape delimitadas solo son válidas en C++23
+C:\Users\YUYU\Desktop\Insecto\Source.cpp(26,2): warning C4129: “o”: secuencia de escape de caracteres no reconocida
   Source.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
   Insecto.vcxproj -> C:\Users\YUYU\Desktop\Insecto\x64\Debug\Insecto.exe

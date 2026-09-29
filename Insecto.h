@@ -57,7 +57,7 @@ void Insecto::setnombre_cientifico(string pnombre_cientifico)
 
 void Insecto::mostrar_datos()
 {
-	cout << "Nombre científico: " << nombre_cientifico << endl;
+	cout << "Nombre cientifico: " << nombre_cientifico << endl;
 	cout << "Numero de patas: " << numero_patas << endl;
 	cout << "Color del insecto: " << color << endl;
 }
